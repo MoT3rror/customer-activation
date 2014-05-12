@@ -70,4 +70,9 @@ class Netzarbeiter_CustomerActivation_Test_Controller_Adminhtml_AbstractControll
 
         $this->replaceByMock('model', 'adminnotification/feed', $mockFeed);
     }
+    
+    public function testTrue()
+    {
+        $this->assertTrue(true);
+    }
 }
